@@ -12,7 +12,7 @@ function Man(name,gender,breed,address){
   this.address=address
 }
 Man.prototype.display=function(){
-  alert("I am Man..")
+  alert("Hi "+this.name)
 };
 
 
@@ -26,7 +26,7 @@ Dog.prototype.display=function(){
 
 
 
-var man1=new Man('abc','male','qwe','pune')
+var man1=new Man('Sandesh','male','qwe','pune')
 console.log(man1.display())
 console.log(man1)
 
