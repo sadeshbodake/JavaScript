@@ -1,0 +1,38 @@
+.switchboard{
+  width: 400px;
+  height: 400px;
+  background-color: red;
+  color: red;
+  float: left;
+}
+.btn{
+  background-color: yellow;
+  margin-top: 200px;
+  margin-bottom: auto;
+  margin-left: 150px;
+  margin-right: auto;
+  padding: 2px 20px;
+  font-weight: bold;
+}
+.status{
+  background-color: skyblue;
+  font-weight: bold;
+  width: 360px;
+  height: 50px;
+  padding: 10px 20px;
+  text-align: center;
+}
+.blocks{
+  float: left;
+}
+.block{
+  width: 200px;
+  height: 50px;
+  border:1px solid black;
+  margin-left: 20px;
+  background-color: skyblue;
+}
+body{
+  margin-left: 400px;
+  margin-top: 100px;
+}
