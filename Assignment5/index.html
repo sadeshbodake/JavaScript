@@ -1,0 +1,94 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript Assignment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  </head>
+  <body>
+    <h2>Student Details...</h2><br>
+    <form  id ="myform" class="form-horizontal" >
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="name">Name:</label>
+        <div class="col-sm-8">
+          <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name" autocomplete="off">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">Email:</label>
+        <div class="col-sm-8">
+          <input type="email" class="form-control" id="email" placeholder="Enter your email Address" name="email" autocomplete="off">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="phone">Phone:</label>
+        <div class="col-sm-8">
+          <input type="text" class="form-control" id="phone" placeholder="Enter phone number" name="phone" autocomplete="off">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="birth-date">Birth Date:</label>
+        <div class="col-sm-8">
+          <input type="date" class="form-control" id="date" placeholder="Enter your birth date" name="date" autocomplete="off">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2">Enter Marks is Mathmatics</label>
+        <div class="col-sm-2">
+          <input type="number" class="form-control" id="maths"  name="maths" autocomplete="off">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2">Enter Marks is PHYSICS</label>
+        <div class="col-sm-2">
+          <input type="number" class="form-control" id="phy"  name="phy" autocomplete="off">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2">Enter Marks is COMPUTER</label>
+        <div class="col-sm-2">
+          <input type="number" class="form-control" id="comp"  name="comp" autocomplete="off">
+        </div>
+      </div>
+      <div id="table">
+      <table border="1px solid black" colspan="2px">
+        <tr>
+          <th>Name</th>t
+          <th>Email</th>
+          <th>PHONE</th>
+          <th>Birth-Date</th>
+          <th>Marks</th>
+        </tr>
+        <tr>
+          <td class="tname"></td>
+          <td class="temail"></td>
+          <td class="tphone"></td>
+          <td class="tdate"></td>
+          <td class="tmarks"></td>
+        </tr>
+      </table>
+      <div>
+        The values stored were
+        <span></span>
+        and
+        <span></span>
+     </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-8">
+          <button id="btn" type="submit" class="btn btn-default">Submit</button>
+        </div>
+      </div>
+    </form>
+    <span id="mySpanId"></span>
+  </body>
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+ <!-- <script src="js/validate.js"></script>-->
+  <script src="js/liststudent.js"></script>
+</html>
+
+
+
+
