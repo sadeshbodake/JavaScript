@@ -35,58 +35,53 @@
       <div class="form-group">
         <label class="control-label col-sm-2">Enter Marks is Mathmatics</label>
         <div class="col-sm-2">
-          <input type="number" class="form-control" id="maths"  name="maths" autocomplete="off">
+          <input type="text" class="form-control" id="maths"  name="marks" autocomplete="off">
         </div>
       </div>
       <div class="form-group">
         <label class="control-label col-sm-2">Enter Marks is PHYSICS</label>
         <div class="col-sm-2">
-          <input type="number" class="form-control" id="phy"  name="phy" autocomplete="off">
+          <input type="text" class="form-control" id="phy"  name="marks" autocomplete="off">
         </div>
       </div>
       <div class="form-group">
         <label class="control-label col-sm-2">Enter Marks is COMPUTER</label>
         <div class="col-sm-2">
-          <input type="number" class="form-control" id="comp"  name="comp" autocomplete="off">
+          <input type="text" class="form-control" id="comp"  name="marks" autocomplete="off">
         </div>
-      </div>
-      <div id="table">
-      <table border="1px solid black" colspan="2px">
-        <tr>
-          <th>Name</th>t
-          <th>Email</th>
-          <th>PHONE</th>
-          <th>Birth-Date</th>
-          <th>Marks</th>
-        </tr>
-        <tr>
-          <td class="tname"></td>
-          <td class="temail"></td>
-          <td class="tphone"></td>
-          <td class="tdate"></td>
-          <td class="tmarks"></td>
-        </tr>
-      </table>
-      <div>
-        The values stored were
-        <span></span>
-        and
-        <span></span>
-     </div>
       </div>
       <div class="form-group">
-        <div class="col-sm-offset-2 col-sm-8">
-          <button id="btn" type="submit" class="btn btn-default">Submit</button>
+          <div class="col-sm-offset-2 col-sm-8">
+            <button id="submit" type="submit" class="btn btn-default">ADD STUDENT DETAILS</button>
+          </div>
         </div>
+        <br><br>
+      <center>
+      <div id="table">
+        <table class="table table-striped table-hover" style="width: 70%;" >
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>PHONE</th>
+            <th>Age</th>
+            <th>PERCENTAGE</th>
+            <th>Result</th>
+            <th>EDIT DETAILS</th>
+          </tr>
+          <tbody id="list">
+          </tbody>
+        </table>
       </div>
+      </center>
     </form>
     <span id="mySpanId"></span>
   </body>
   <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
   <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
- <!-- <script src="js/validate.js"></script>-->
+  <script src="js/validate.js"></script>
   <script src="js/liststudent.js"></script>
+   <script src="js/editstudent.js"></script>
 </html>
 
 

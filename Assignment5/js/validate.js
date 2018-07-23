@@ -27,12 +27,21 @@ $("#myform").validate({
 
     date:{
       required:true
+    },
+
+    marks:{
+      required:true,
+      maxlength:1,
+      maxlength:2,
+      accept:"[0-9]+"
     }
+
   },
 
   messages:{
     phone:"Phone Number is not valid ",
     name:"Name should't contain any number or blank",
+    marks:"Not Valid Marks",
   },
 
   submitHandler: function(form) {
